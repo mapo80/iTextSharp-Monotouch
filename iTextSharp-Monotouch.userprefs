@@ -1,0 +1,31 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iTextSharp-Test/iTextSharp_TestViewController.cs">
+    <Files>
+      <File FileName="iTextSharp-Test/iTextSharp_TestViewController.cs" Line="10" Column="1" />
+      <File FileName="iTextSharp-Monotouch/text/Image.cs" Line="347" Column="1" />
+      <File FileName="iTextSharp-Monotouch/text/Utilities.cs" Line="114" Column="1" />
+      <File FileName="iTextSharp-Monotouch/text/Paragraph.cs" Line="73" Column="18" />
+      <File FileName="iTextSharp-Monotouch/text/Phrase.cs" Line="443" Column="18" />
+      <File FileName="iTextSharp-Monotouch/text/Font.cs" Line="84" Column="5" />
+      <File FileName="iTextSharp-Test/PdfScrollView.cs" Line="38" Column="42" />
+      <File FileName="iTextSharp-Test/TiledPdfView.cs" Line="70" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="iTextSharp-Test" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/matteo/Projects/iTextSharp-Monotouch/iTextSharp-Monotouch/pdf/BaseFont.cs" line="1368" />
+      <Breakpoint file="/Users/matteo/Projects/iTextSharp-Monotouch/iTextSharp-Monotouch/pdf/PdfReader.cs" line="478" />
+      <Breakpoint file="/Users/matteo/Projects/iTextSharp-Monotouch/iTextSharp-Monotouch/pdf/Type1Font.cs" line="176" />
+      <Breakpoint file="/Users/matteo/Projects/iTextSharp-Monotouch/iTextSharp-Monotouch/text/Image.cs" line="347" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
