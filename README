@@ -1,3 +1,5 @@
+This version uses iTextSharp 5.2.1
+
 iTextSharp for Monotouch
 To compile this library I have to comment all the code about Barcode because there is reference to System.Drawing.Drawinf2D.
 If someone needs it can work on this version to find a way to add barcode generation.
