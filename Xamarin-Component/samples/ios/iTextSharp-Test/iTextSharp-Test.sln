@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTextSharp-Test", "iTextSharp-Test.csproj", "{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Release|iPhone.ActiveCfg = Release|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Release|iPhone.Build.0 = Release|iPhone
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{6BBBEB9F-89B3-4A7E-90B1-78AD4994B83E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = iTextSharp-Test.csproj
+	EndGlobalSection
+EndGlobal

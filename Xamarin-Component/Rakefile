@@ -1,0 +1,35 @@
+require "rake/clean"
+
+CLEAN.include "*.xam"
+CLEAN.include "xamarin-component"
+
+COMPONENT = "itextsharp-monotouch-1.0.xam"
+
+file "/Users/matteo/Downloads/xpkg/xamarin-component.exe" do
+	puts "* Downloading xamarin-component..."
+	mkdir "xamarin-component"
+	sh "curl -L https://components.xamarin.com/submit/xpkg > xamarin-component.zip"
+	sh "unzip -o xamarin-component.zip -d xamarin-component"
+	sh "rm xamarin-component.zip"
+end
+
+task :default => "/Users/matteo/Downloads/xpkg/xamarin-component.exe" do
+	line = <<-END
+	mono /Users/matteo/Downloads/xpkg/xamarin-component.exe create-manually #{COMPONENT} \
+		--name="iTextSharp Monotouch" \
+		--summary="This is a port of the library to work on Monotouch. iTextSharp is a C# port of iText, an open source Java library for PDF generation and manipulation. " \
+		--publisher="Mapo" \
+		--website="https://github.com/mapo80/iTextSharp-Monotouch" \
+		--details="Details.md" \
+		--license="License.md" \
+		--getting-started="GettingStarted.md" \
+		--icon="icons/itextsharp-monotouch_128x128.png" \
+		--icon="icons/itextsharp-monotouch_512x512.png" \
+		--library="ios":"bin/iTextSharp-Monotouch.dll" \
+	       --sample="iOS Sample. Here you can find a sample application":"samples/ios/iTextSharp-Test/iTextSharp-Test.sln"
+		END
+	puts "* Creating #{COMPONENT}..."
+	puts line.strip.gsub "\t\t", "\\\n    "
+	sh line, :verbose => false
+	puts "* Created #{COMPONENT}"
+end
