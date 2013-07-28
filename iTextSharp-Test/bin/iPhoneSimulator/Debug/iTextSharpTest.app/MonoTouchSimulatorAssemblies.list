@@ -1,6 +1,5 @@
-Mono.Security.dll
-System.Core.dll
-System.Xml.dll
-System.dll
-iTextSharp-Monotouch.dll
 mscorlib.dll
+System.Core.dll
+System.dll
+System.Xml.dll
+iTextSharp-Monotouch.dll
